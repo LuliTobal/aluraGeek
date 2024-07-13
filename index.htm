@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - </title>
+    <link rel="shortcut icon" href="assets/Sin título-1_Mesa de trabajo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheets/estiloIndex.css">
+</head>
+<body class="pagina">
+    <header class="top_pagina">
+        <img class="imagen_top" src="./assets/6906183.jpg" alt="">
+        <h1 class="titulo_pag">MIS LIBROS</h1>
+    </header>
+    <main>
+        <div class="cuerpo_pagina">
+            <div class="contenedor_cards">
+                <div class="card">
+                    <img src="./assets/portadaHarryPotter.png" alt="" class="imagen_card">
+                    <h3 class="titulo">Harry Potter y la piedra filosofal</h3>
+                    <h4 class="autor">KJ.Roglin</h4>
+                    <h5 class="genero">Ficsión</h5>
+                    <span class="botones_edición"><button class="btn_editar"><img src="./assets/edit_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="imagen_btn_card"></button>
+                    <button class="btn_eliminar"><img src="./assets/delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="imagen_btn_card"></button></span>
+                </div>
+            </div>
+            <div class="contenedor_editor">
+                <h1 class="subtitulo_pag">Nuevo libro</h1>
+                <form action="" class="editor_form">
+                    <label for="file-upload">Portada</label>
+                    <img src="./assets/editPhoto.jpeg" alt="Imagen de perfil" class="fotoSubir">
+                    <input id="file-upload" type="file" class="imagen_subir_input" accept="image/*"/>
+                    <label for="titulo">Título</label>
+                    <input type="text" name="" id="titulo" class="input_cargar">
+                    <label for="autor">Autor</label>
+                    <input type="text" name="" id="autor" class="input_cargar">
+                    <label for="genero">Género</label>
+                    <input type="text" id="genero" class="input_cargar">
+                    <label for="ISBN">ISBN</label>
+                    <input type="number" name="" id="ISBN" class="input_cargar">
+                    <input type="button" value="Agregar libro" class="btn_cargar">   
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="elPie">
+        <div class="itemLista">
+            <img src="./assets/Sin título-1_Mesa de trabajo 1.png" alt="logo" class="logo_pie">
+            <p>Desarrollado por Lourdes Tobal</p>
+        </div>
+        <img src="./assets/librosFooter_Mesa de trabajo 1.png" alt="logo discord" class="img_pie">
+    </footer>
+</body>
+</html>
