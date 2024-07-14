@@ -1,0 +1,60 @@
+{
+  "libros": [
+    {
+      "portada": "https://books.google.com.ar/books/publisher/content?id=HP2bBAAAQBAJ&hl=es&pg=PA1&img=1&zoom=3&bul=1&sig=ACfU3U3b2NQxMwTgvPLm8vZ8b43c-i-FgQ&w=1280",
+      "titulo": "Crear o morir",
+      "autor": "Andres Oppenheimer",
+      "genero": "Periodístico",
+      "isbn": 9786073126014,
+      "id": 1
+    },
+    {
+      "id": "0ceb",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_884618-MLA31766462391_082019-F.webp",
+      "titulo": "Orgullo y Prejuicio",
+      "autor": "Jane Austen",
+      "genero": "Novela",
+      "isbn": "9789874715111"
+    },
+    {
+      "id": "f336",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_633210-MLA76086519499_042024-F.webp",
+      "titulo": "Espiritu Animal",
+      "autor": "Magali Tajes",
+      "genero": "Autoayuda",
+      "isbn": "9789500770545"
+    },
+    {
+      "id": "9d9b",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_862495-MLA71457479793_092023-O.webp",
+      "titulo": "La Bailarina De Auschwitz",
+      "autor": "Edith Eva Eger",
+      "genero": "Novelas",
+      "isbn": "9789878220697"
+    },
+    {
+      "id": "cfb2",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_950741-MLA52251857086_112022-F.webp",
+      "titulo": "Mi Adorable E",
+      "autor": "Lolita",
+      "genero": " Autoayuda",
+      "isbn": "9789877803730"
+    },
+    {
+      "id": "fd0d",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_666385-MLA54228217395_032023-F.webp",
+      "titulo": "Habitos Atomicos",
+      "autor": "Habitos Atomicos",
+      "genero": "Autoayuda",
+      "isbn": "9789878220062"
+    },
+    {
+      "id": "17fd",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_864115-MLA25203109140_122016-O.webp",
+      "titulo": "El Hombre En Busca Del Sentido",
+      "autor": "Viktor Emil Frankl",
+      "genero": "Autoayuda",
+      "isbn": "9788425432026"
+    }
+  ]
+}

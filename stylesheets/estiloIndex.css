@@ -2,6 +2,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main{
+    width: 100%;
+}
+
 .pagina{
     display: flex;
     flex-direction: column;
@@ -40,6 +44,7 @@
 .cuerpo_pagina{
     display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
     margin-top: 15%;
 }
@@ -51,7 +56,12 @@
     align-items: center;
 }
 
-.card{
+
+.contenedor_cards{
+    align-items: stretch;
+}
+
+.card_libro{
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -61,7 +71,7 @@
     background-color: #f1e5d9;
     padding: 5%;
     align-items: center;
-    margin: 5% 0;
+    margin: 3% 0;
 }
 
 .imagen_card{
@@ -171,6 +181,7 @@
     border-radius: 5px;
     height: 4vh;
     width: 80%;
+    padding: 0 2%;
 }
 
 .btn_cargar{
@@ -198,13 +209,6 @@
     background-color: #3B848C;
     color: #f1e5d9;
     font-weight: 600;
-}
-
-.infoMensajeria{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
 }
 
 .itemLista{
@@ -248,15 +252,14 @@
 
     .contenedor_cards{
         flex-direction: row;
+        flex-wrap: wrap;
         width: 70%;
         gap: 5%;
     }
 
-    .contenedor_editor{
-        width: 30%;
-    }
-
-    .card{
+    .card_libro{
+        max-width: 25%;
+        min-width: 20%;
         padding: 2%;
     }
 
@@ -265,8 +268,26 @@
     }
 
     .contenedor_editor{
+        width: 40%;
         background-color: #94E9F2;
         box-shadow: -4px 0 5px rgb(59, 132, 140, 0.3);
         border-radius: 5px;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    .contenedor_cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 5%;
+    }
+    .card_libro{
+        max-width: 35%;
+    }
+
+    .botones_edición{
+        width: 70%;
     }
 }
