@@ -5,8 +5,6 @@ async function conectarBaseDatos() {
     return baseDatosConvertida;
 }
 
-// conectarBaseDatos();
-
 async function cargarBaseDatos(portada, titulo, autor, genero, isbn) {
     const nuevoObjetoBD = await fetch("http://localhost:3001/libros", {
         method: "POST",

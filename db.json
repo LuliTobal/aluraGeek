@@ -1,14 +1,6 @@
 {
   "libros": [
     {
-      "portada": "https://books.google.com.ar/books/publisher/content?id=HP2bBAAAQBAJ&hl=es&pg=PA1&img=1&zoom=3&bul=1&sig=ACfU3U3b2NQxMwTgvPLm8vZ8b43c-i-FgQ&w=1280",
-      "titulo": "Crear o morir",
-      "autor": "Andres Oppenheimer",
-      "genero": "Periodístico",
-      "isbn": 9786073126014,
-      "id": 1
-    },
-    {
       "id": "0ceb",
       "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_884618-MLA31766462391_082019-F.webp",
       "titulo": "Orgullo y Prejuicio",
@@ -55,6 +47,22 @@
       "autor": "Viktor Emil Frankl",
       "genero": "Autoayuda",
       "isbn": "9788425432026"
+    },
+    {
+      "id": "fbe5",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_862495-MLA71457479793_092023-F.webp",
+      "titulo": "La Bailarina de Auschwitz",
+      "autor": "Edith Eva Eger",
+      "genero": "Novela",
+      "isbn": "9789878220697"
+    },
+    {
+      "id": "9f83",
+      "portada": "https://http2.mlstatic.com/D_NQ_NP_889115-MLA25178127524_112016-O.webp",
+      "titulo": "Crear O Morir",
+      "autor": "Andres Oppenheimer",
+      "genero": "Periodístico",
+      "isbn": "9789873752032"
     }
   ]
 }
